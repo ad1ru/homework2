@@ -10,7 +10,7 @@ public class Main {
         int age = generateRandomAge(0, 100);
         int temperature = -5;
 
-        // System.out.println(age); - чтобы выводил рандомное число в консоль
+        // System.out.println(age); - чтобы выводил рандомное число в консоль.
 
         if ((age >= 20 && age <= 45) && (temperature >= -20 && temperature <= 30)) {
             System.out.println("Идем в парк");
